@@ -60,13 +60,13 @@ it will grow/repeat vertically to the height of your longest column.
 Use with SASS / Compass
 ---------
 
-To use with SASS or Compass, first import one of the supplied styles. Copy the needed sass/scss file to your stylesheet directory and import it:
+To use with SASS or Compass, first import one of the supplied styles in the `import` folder. Copy the needed sass/scss file to your stylesheet directory and import it:
 
 	@import "978gs";
 
 ### Layouts
 
-By default, it compiles the 978px layout, but you can switch to the other layouts by declaring the **$layoutwidth** before the import.
+By default, the imported stylesheet will compile the 978px layout, but you can switch to the other layouts by declaring the `$layoutwidth` property to another layout before the import.
 
 	$layoutwidth : 1378;
 	@import "978gs";
@@ -91,11 +91,11 @@ will render to :
 		width: 138px;
 		margin-left: 0; }
 
-As you can see, the default value for `$first` is set to `false`, so you can leave it most of the time.
+As you can see, the default value for `$first` is set to `false`, so you can leave it just like that most of the time.
 
 ### $printlayout
 
-By default, the imported SASS/SCSS file is not going to print all of those `.col1, .col2, .col3…` class styling. We encouraged you to just stick to the grid mixin. However, if you want to print those styles, you can change the `$printlayout` value before importing:
+By default, the imported SASS/SCSS file is not going to print all of those `.col1, .col2, .col3…` class styling. We encourage you to just stick to the grid mixin. However, if you want to print those styles, you can change the `$printlayout` value before importing:
 
 	$printlayout : true;
 	@import "978gs";
