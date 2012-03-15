@@ -56,3 +56,48 @@ grid systems CSS.
 Don't forget to add a "row-end" element immediately after your last column of a row. Placing the 
 ending element here will allow you to apply a background image or color to each row separately and 
 it will grow/repeat vertically to the height of your longest column.
+
+Use with SASS / Compass
+---------
+
+To use with SASS or Compass, first import one of the supplied styles. Copy the needed sass/scss file to your stylesheet directory and import it:
+
+	@import "978gs";
+
+### Layouts
+
+By default, it compiles the 978px layout, but you can switch to the other layouts by declaring the **$layoutwidth** before the import.
+
+	$layoutwidth : 1378;
+	@import "978gs";
+
+### Grid Mixin
+
+You can assign the grid mixin to the css by including `grid($column_width,$first)` where `$column_width` is the number of columns you'd like to use and `$first` is a boolean whether the assigned block is the first column or not. Here's an example:
+
+	.first {
+		@include grid(1); }
+	.second {
+		@include grid(2,true); }
+
+will render to :
+	
+	.first {
+		float: left;
+		width : 54px;
+		margin-left: 30px; }
+	.second {
+		float: left;
+		width: 138px;
+		margin-left: 0; }
+
+As you can see, the default value for `$first` is set to `false`, so you can leave it most of the time.
+
+### $printlayout
+
+By default, the imported SASS/SCSS file is not going to print all of those `.col1, .col2, .col3…` class styling. We encouraged you to just stick to the grid mixin. However, if you want to print those styles, you can change the `$printlayout` value before importing:
+
+	$printlayout : true;
+	@import "978gs";
+
+..and it will generate all the classes styles.
