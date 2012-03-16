@@ -76,17 +76,26 @@ $printlayout  : false !default
       width: calcGrid($columns)
     $columns: $columns - 1
 
-// print the css
-.layout-#{$layoutwidth}
+@mixin layout
   width: $layoutwidth+px
   margin: 0px auto
-.row
+
+@mixin row
   height: 1%
-.row-end
+
+@mixin row-end
   clear: both
   font: 1px/1px sans-serif
   height: 1px
   overflow: hidden
+
+// print the css
+.layout-#{$layoutwidth}
+  @include layout
+.row
+  @include row
+.row-end
+  @include row-end
 
 @if $printlayout == true
   @include printColums

@@ -71,7 +71,21 @@ By default, the imported stylesheet will compile the 978px layout, but you can s
 	$layoutwidth : 1378;
 	@import "978gs";
 
-### Grid Mixin
+### Mixins
+
+Semantics matters, so in exchange of naming your divs `layout-978` or `row` or `row-end`, you can use the mixins inside your stylesheet to get the same result!
+
+	.your-container-div {
+		@include layout;
+		.. (some other styles) }
+	.your-row-div-name {
+		@include row; }
+	.your-end-div {
+		@include row-end; }
+
+.. and we're good to go.
+
+#### Grids. No calculator needed.
 
 You can assign the grid mixin to the css by including `grid($column_width,$first)` where `$column_width` is the number of columns you'd like to use and `$first` is a boolean whether the assigned block is the first column or not. Here's an example:
 
