@@ -56,3 +56,62 @@ grid systems CSS.
 Don't forget to add a "row-end" element immediately after your last column of a row. Placing the 
 ending element here will allow you to apply a background image or color to each row separately and 
 it will grow/repeat vertically to the height of your longest column.
+
+Use with SASS / Compass
+---------
+
+To use with SASS or Compass, first import one of the supplied styles in the `import` folder. Copy the needed sass/scss file to your stylesheet directory and import it:
+
+	@import "978gs";
+
+### Layouts
+
+By default, the imported stylesheet will compile the 978px layout, but you can switch to the other layouts by declaring the `$layoutwidth` property to another layout before the import.
+
+	$layoutwidth : 1378;
+	@import "978gs";
+
+### Mixins
+
+Semantics matters, so in exchange of naming your divs `layout-978` or `row` or `row-end`, you can use the mixins inside your stylesheet to get the same result!
+
+	.your-container-div {
+		@include layout;
+		.. (some other styles) }
+	.your-row-div-name {
+		@include row; }
+	.your-end-div {
+		@include row-end; }
+
+.. and we're good to go.
+
+#### Grids. No calculator needed.
+
+You can assign the grid mixin to the css by including `grid($column_width,$first)` where `$column_width` is the number of columns you'd like to use and `$first` is a boolean whether the assigned block is the first column or not. Here's an example:
+
+	.first {
+		@include grid(1); }
+	.second {
+		@include grid(2,true); }
+
+will render to :
+	
+	.first {
+		float: left;
+		width : 54px;
+		margin-left: 30px; }
+	.second {
+		float: left;
+		width: 138px;
+		margin-left: 0; }
+
+As you can see, the default value for `$first` is set to `false`, so you can leave it just like that most of the time.
+
+### $printlayout
+
+By default, the imported SASS/SCSS file is not going to print all of those `.col1, .col2, .col3…` class styling. We encourage you to just stick to the grid mixin. However, if you want to print those styles, you can change the `$printlayout` value before importing:
+
+	$printlayout : true;
+	@import "978gs";
+
+..and it will generate all the classes styles.
