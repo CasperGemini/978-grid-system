@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1024"
+   width="1280"
    height="1600"
    id="svg4008"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="978.svg">
+   sodipodi:docname="1218.svg">
   <title
      id="title3033">Grid System 960</title>
   <defs
@@ -31,21 +31,21 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.72301668"
-     inkscape:cx="604.80787"
-     inkscape:cy="1140.6203"
+     inkscape:zoom="0.13789063"
+     inkscape:cx="542.69103"
+     inkscape:cy="1330.3993"
      inkscape:document-units="px"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer4"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1680"
-     inkscape:window-height="1026"
-     inkscape:window-x="0"
+     inkscape:window-width="840"
+     inkscape:window-height="997"
+     inkscape:window-x="1"
      inkscape:window-y="24"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-global="false"
@@ -53,100 +53,132 @@
      inkscape:snap-page="false">
     <sodipodi:guide
        orientation="1,0"
-       position="23,1600"
-       id="guide3810" />
+       position="31,1600"
+       id="guide4581" />
     <sodipodi:guide
        orientation="1,0"
-       position="77,1600"
-       id="guide3812" />
+       position="967,1600"
+       id="guide4585" />
     <sodipodi:guide
        orientation="1,0"
-       position="107,1600"
-       id="guide3814" />
+       position="265,1600"
+       id="guide5232" />
     <sodipodi:guide
        orientation="1,0"
-       position="161,1600"
-       id="guide3816" />
+       position="235,1600"
+       id="guide5234" />
     <sodipodi:guide
        orientation="1,0"
-       position="191,1600"
-       id="guide3818" />
+       position="187,1600"
+       id="guide5238" />
     <sodipodi:guide
        orientation="1,0"
-       position="245,1600"
-       id="guide3820" />
+       position="157,1600"
+       id="guide5240" />
     <sodipodi:guide
        orientation="1,0"
-       position="275,1600"
-       id="guide3822" />
+       position="109,1600"
+       id="guide5242" />
     <sodipodi:guide
        orientation="1,0"
-       position="329,1600"
-       id="guide3824" />
+       position="79,1600"
+       id="guide5244" />
     <sodipodi:guide
        orientation="1,0"
-       position="359,1600"
-       id="guide3826" />
+       position="313,1600"
+       id="guide5246" />
     <sodipodi:guide
        orientation="1,0"
-       position="413,1600"
-       id="guide3828" />
+       position="343,1600"
+       id="guide5248" />
     <sodipodi:guide
        orientation="1,0"
-       position="443,1600"
-       id="guide3830" />
+       position="391,1600"
+       id="guide5250" />
     <sodipodi:guide
        orientation="1,0"
-       position="497,1600"
-       id="guide3832" />
+       position="421,1600"
+       id="guide5252" />
     <sodipodi:guide
        orientation="1,0"
-       position="527,1600"
-       id="guide3834" />
+       position="469,1600"
+       id="guide5308" />
     <sodipodi:guide
        orientation="1,0"
-       position="581,1600"
-       id="guide3836" />
+       position="547,1600"
+       id="guide5310" />
     <sodipodi:guide
        orientation="1,0"
-       position="611,1600"
-       id="guide3838" />
+       position="499,1600"
+       id="guide5312" />
     <sodipodi:guide
        orientation="1,0"
-       position="665,1600"
-       id="guide3840" />
+       position="625,1600"
+       id="guide5316" />
     <sodipodi:guide
        orientation="1,0"
-       position="695,1600"
-       id="guide3842" />
+       position="703,1600"
+       id="guide5318" />
     <sodipodi:guide
        orientation="1,0"
-       position="779,1600"
-       id="guide3844" />
+       position="811,1600"
+       id="guide5320" />
     <sodipodi:guide
        orientation="1,0"
-       position="749,1600"
-       id="guide3846" />
+       position="859,1600"
+       id="guide5322" />
     <sodipodi:guide
        orientation="1,0"
-       position="833,1600"
-       id="guide3848" />
+       position="889,1600"
+       id="guide5324" />
     <sodipodi:guide
        orientation="1,0"
-       position="863,1600"
-       id="guide3850" />
+       position="937,1600"
+       id="guide5326" />
     <sodipodi:guide
        orientation="1,0"
-       position="917,1600"
-       id="guide3852" />
+       position="733,1600"
+       id="guide5328" />
     <sodipodi:guide
        orientation="1,0"
-       position="947,1600"
-       id="guide3854" />
+       position="781,1600"
+       id="guide5330" />
     <sodipodi:guide
        orientation="1,0"
-       position="1002,1600"
-       id="guide3860" />
+       position="577,1600"
+       id="guide3804" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1249,1600"
+       id="guide3845" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1201,1600"
+       id="guide3847" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1171,1600"
+       id="guide3849" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1123,1600"
+       id="guide3851" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1093,1600"
+       id="guide3853" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1045,1600"
+       id="guide3855" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="1015,1600"
+       id="guide3857" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="655,1600"
+       id="guide3859" />
   </sodipodi:namedview>
   <metadata
      id="metadata4013">
@@ -189,8 +221,8 @@
      style="display:inline"
      sodipodi:insensitive="true">
     <rect
-       y="-1.0704991e-06"
-       x="77"
+       y="-4.5996094e-06"
+       x="79"
        height="1600"
        width="30"
        id="rect5115"
@@ -200,18 +232,18 @@
        id="rect3119"
        width="30"
        height="1600"
-       x="161"
-       y="-1.0704991e-06" />
+       x="157"
+       y="-4.5996094e-06" />
     <rect
        style="opacity:0.96363633;fill:#000000;fill-opacity:0;stroke:none"
        id="rect3135"
        width="30"
        height="1600"
-       x="245"
-       y="-1.0704991e-06" />
+       x="235"
+       y="-4.5996094e-06" />
     <rect
-       y="-1.0704991e-06"
-       x="329"
+       y="-4.5996094e-06"
+       x="313"
        height="1600"
        width="30"
        id="rect3141"
@@ -221,18 +253,18 @@
        id="rect3159"
        width="30"
        height="1600"
-       x="413"
-       y="-1.0704991e-06" />
+       x="391"
+       y="-4.5996094e-06" />
     <rect
-       y="-8.000001"
-       x="497"
+       y="-4.5996094e-06"
+       x="469"
        height="1600"
        width="30"
        id="rect3165"
        style="opacity:0.96363633;fill:#000000;fill-opacity:0;stroke:none" />
     <rect
-       y="-1.0704991e-06"
-       x="581"
+       y="-4.5996094e-06"
+       x="547"
        height="1600"
        width="30"
        id="rect3171"
@@ -242,25 +274,25 @@
        id="rect3177"
        width="30"
        height="1600"
-       x="665"
-       y="-1.0704991e-06" />
+       x="625"
+       y="-4.5996094e-06" />
     <rect
        style="opacity:0.96363633;fill:#000000;fill-opacity:0;stroke:none"
        id="rect3257"
        width="30"
        height="1600"
-       x="749"
-       y="3.242493e-06" />
+       x="703"
+       y="-4.5996094e-06" />
     <rect
-       y="-1.0704991e-06"
-       x="833"
+       y="-4.5996094e-06"
+       x="781"
        height="1600"
        width="30"
        id="rect3263"
        style="opacity:0.96363633;fill:#000000;fill-opacity:0;stroke:none" />
     <rect
-       y="-1.0704991e-06"
-       x="917"
+       y="-4.5996094e-06"
+       x="859"
        height="1600"
        width="30"
        id="rect3269"
@@ -280,86 +312,142 @@
       <rect
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none"
          id="rect4605"
-         width="54"
+         width="48"
          height="1600"
-         x="23"
-         y="-5.9127785e-07" />
+         x="31"
+         y="-3.8146973e-06" />
       <rect
-         y="-5.9127785e-07"
-         x="107"
+         y="-3.8146973e-06"
+         x="109"
          height="1600"
-         width="54"
+         width="48"
          id="rect3117"
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none" />
       <rect
-         y="-5.9127785e-07"
-         x="191"
+         y="-3.8146973e-06"
+         x="187"
          height="1600"
-         width="54"
+         width="48"
          id="rect3133"
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none" />
       <rect
-         y="-5.9127785e-07"
-         x="359"
+         y="-3.8146973e-06"
+         x="343"
          height="1600"
-         width="54"
+         width="48"
          id="rect3157"
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none" />
       <rect
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none"
          id="rect3163"
-         width="54"
+         width="48"
          height="1600"
-         x="443"
-         y="-5.9127785e-07" />
+         x="421"
+         y="-3.8146973e-06" />
       <rect
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none"
          id="rect3169"
-         width="54"
+         width="48"
          height="1600"
-         x="527"
-         y="-5.9127785e-07" />
+         x="499"
+         y="-3.8146973e-06" />
       <rect
-         y="-5.9127785e-07"
-         x="611"
+         y="-3.8146973e-06"
+         x="577"
          height="1600"
-         width="54"
+         width="48"
          id="rect3175"
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none" />
       <rect
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none;display:inline"
          id="rect3139"
-         width="54"
+         width="48"
          height="1600"
-         x="275"
-         y="-5.9127785e-07" />
+         x="265"
+         y="-3.8146973e-06" />
       <rect
-         y="-5.9127785e-07"
-         x="695"
+         y="-3.8146973e-06"
+         x="655"
          height="1600"
-         width="54"
+         width="48"
          id="rect3255"
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none" />
       <rect
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none"
          id="rect3261"
-         width="54"
+         width="48"
          height="1600"
-         x="779"
-         y="3.242493e-06" />
+         x="733"
+         y="-3.8146973e-06" />
       <rect
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none"
          id="rect3267"
-         width="54"
+         width="48"
          height="1600"
-         x="863"
-         y="-5.9127785e-07" />
+         x="811"
+         y="-3.8146973e-06" />
       <rect
-         y="-5.9127785e-07"
-         x="947"
+         y="-3.8146973e-06"
+         x="889"
          height="1600"
-         width="54"
+         width="48"
          id="rect3297"
+         style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         style="opacity:0.96363633;fill:#000000;fill-opacity:0;stroke:none;display:inline"
+         id="rect3177-5"
+         width="30"
+         height="1600"
+         x="937"
+         y="0" />
+      <rect
+         style="opacity:0.96363633;fill:#000000;fill-opacity:0;stroke:none;display:inline"
+         id="rect3257-9"
+         width="30"
+         height="1600"
+         x="1015"
+         y="0" />
+      <rect
+         y="0"
+         x="1093"
+         height="1600"
+         width="30"
+         id="rect3263-5"
+         style="opacity:0.96363633;fill:#000000;fill-opacity:0;stroke:none;display:inline" />
+      <rect
+         y="-4"
+         x="1169"
+         height="1600"
+         width="30"
+         id="rect3269-3"
+         style="opacity:0.96363633;fill:#000000;fill-opacity:0;stroke:none;display:inline" />
+      <rect
+         y="0"
+         x="967"
+         height="1600"
+         width="48"
+         id="rect3255-9"
+         style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none;display:inline"
+         id="rect3261-5"
+         width="48"
+         height="1600"
+         x="1045"
+         y="0" />
+      <rect
+         style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none;display:inline"
+         id="rect3267-3"
+         width="48"
+         height="1600"
+         x="1123"
+         y="0" />
+      <rect
+         y="0"
+         x="1201"
+         height="1600"
+         width="48"
+         id="rect3297-3"
          style="opacity:0.96363633;fill:#ffe5e5;fill-opacity:1;stroke:none;display:inline" />
     </g>
   </g>
